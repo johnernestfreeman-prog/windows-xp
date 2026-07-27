@@ -7,14 +7,8 @@ An interactive 3D portfolio site built with Three.js, styled as a Windows XP-era
 ---
  
 ## 📸 Preview
- 
-<table>
-<tr>
-<td width="50%"><img src="./screenshots/desk-scene.png" width="100%"/><p align="center"><em>3D office scene — click the workstation to zoom in</em></p></td>
-<td width="50%"><img src="./screenshots/desktop-view.png" width="100%"/><p align="center"><em>Windows XP-style desktop after zooming in</em></p></td>
-</tr>
-</table>
-**[🚀 Visit Live Site](https://windows-xp-2001.netlify.app/)**
+
+**[🚀 Visit Live Site](https://it-helpdesk-portfolio.netlify.app/)**
  
 ---
  
