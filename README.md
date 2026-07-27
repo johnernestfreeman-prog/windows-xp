@@ -8,7 +8,6 @@ An interactive 3D portfolio site built with Three.js, styled as a Windows XP-era
  
 ## 📸 Preview
  
-<!-- Replace with your own screenshots, saved in a /screenshots folder in this repo -->
 <table>
 <tr>
 <td width="50%"><img src="./screenshots/desk-scene.png" width="100%"/><p align="center"><em>3D office scene — click the workstation to zoom in</em></p></td>
