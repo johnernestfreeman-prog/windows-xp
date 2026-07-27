@@ -1,60 +1,114 @@
-<div align="center">
-<img src="https://raw.githubusercontent.com/johnernestfreeman-prog/johnernestfreeman-prog/main/Windows-XP-gif.gif" alt="Portfolio Demo" width="800">
-
-
-<h1>John Freeman — Portfolio</h1>
-<h3>Junior Developer · IT Support</h3>
-
-<a href="https://windows-xp-2001.netlify.app/"><img src="https://img.shields.io/badge/VISIT_LIVE_SITE-FF6B00?style=for-the-badge&logo=netlify&logoColor=white" alt="Visit Live Site"></a>
-</div>
-
-
-## 🖥️ What Happens When You Click Each Icon
+# 🖥️ Windows XP — 3D Interactive Portfolio
  
-Every icon on the desktop opens a real, draggable XP-style window — not just a static image.
+An interactive 3D portfolio site built with Three.js, styled as a Windows XP-era office desk. Visitors click into the workstation to explore projects, resume, and contact info — just like sitting down at the desk yourself.
  
-### 📇 Contact me
-Opens a working contact form with **Name**, **Email**, and **Message** fields. Hitting Send opens your email client with a pre-filled message addressed straight to me.
- 
-### 📄 My CV
-Opens an embedded PDF viewer showing my resume, with a **Download CV** link underneath so visitors can save a copy directly.
- 
-### 🎵 My Musics
-Opens a simple audio player window with a couple of tracks — click play right in the window, no download required.
- 
-### 💣 Minesweeper
-A fully playable Minesweeper clone, built from scratch — classic 9x9 grid, left-click to reveal, right-click to flag, with win/lose detection.
- 
-### 📝 Notepad
-A blank scratchpad textarea — visitors can type notes freely while browsing, just like the real Windows Notepad.
- 
-### 🏐 Blobby Volley
-An original 2-player volleyball game built entirely in HTML Canvas. Player 1 uses **A/D** to move and **W** to jump; Player 2 uses the **arrow keys**. First to 5 points wins, with real physics for the ball, net collisions, and scoring.
+![Tech Stack](https://skillicons.dev/icons?i=threejs,vite,js,html,css)
  
 ---
  
-Every window is draggable by its title bar and shows up in the taskbar at the bottom, just like a real desktop — you can have several open at once.
+## 📸 Preview
+ 
+<!-- Replace with your own screenshots, saved in a /screenshots folder in this repo -->
+<table>
+<tr>
+<td width="50%"><img src="./screenshots/desk-scene.png" width="100%"/><p align="center"><em>3D office scene — click the workstation to zoom in</em></p></td>
+<td width="50%"><img src="./screenshots/desktop-view.png" width="100%"/><p align="center"><em>Windows XP-style desktop after zooming in</em></p></td>
+</tr>
+</table>
+**[🚀 Visit Live Site](https://windows-xp-2001.netlify.app/)**
+ 
+---
+ 
+## ✨ Features
+ 
+- 🖱️ **Clickable Workstation** — click the desk's triple-monitor setup to zoom into the scene
+- 🎥 **Camera Zoom Transitions** — smooth GSAP-powered camera movement from room view to desktop view
+- 🪟 **Windows XP-Style Overlay** — resume and project details displayed in a nostalgic XP window
+- 📂 **Desktop Shortcuts** — clickable icons (Contact Me, My CV, My Musics, Minesweeper, Notepad, Blobby Volley) that appear once zoomed in
+- 🖨️ **Downloadable Resume** — resume available as a PDF directly from the desktop
+- 🎨 **Fully 3D Environment** — desk, chair, monitors, and props modeled and lit in Three.js
+---
+ 
+## 🛠️ Tech Stack
+ 
+| Layer | Technology |
+|---|---|
+| 3D Rendering | Three.js |
+| Build Tool | Vite |
+| Animation | GSAP |
+| Language | JavaScript, HTML, CSS |
+| Hosting | Netlify |
+ 
+---
+ 
+## 🚀 Getting Started
+ 
+### Prerequisites
+- Node.js (v18+ recommended)
+### Installation
+ 
+```bash
+# Clone the repo
+git clone https://github.com/YOUR_GITHUB_USERNAME/windows-xp.git
+cd windows-xp
+ 
+# Install dependencies
+npm install
+```
+ 
+### Run Locally
+ 
+```bash
+npm run dev
+```
+ 
+The site will be available at `http://localhost:5173` (Vite's default port).
+ 
+### Build for Production
+ 
+```bash
+npm run build
+```
+ 
+Outputs a static `dist/` folder ready to deploy to Netlify, GitHub Pages, or any static host.
+ 
+---
+ 
+## 📁 Project Structure
+ 
+```
+windows-xp/
+├── src/
+│   ├── scenes/          # Three.js scene setup, camera, lighting
+│   ├── models/          # 3D assets (desk, monitors, chair, props)
+│   ├── ui/               # XP-style window overlay, desktop icons
+│   └── main.js          # Entry point
+├── public/
+│   ├── resume.pdf
+│   └── assets/
+├── index.html
+├── vite.config.js
+├── .gitattributes        # ensures binary files (PDFs) aren't corrupted by CRLF conversion
+└── package.json
+```
+ 
+---
+ 
+## 🎯 Roadmap / What's Next
+ 
+- [ ] Add a "skip to plain view" option for visitors who prefer a fast, non-3D version
+- [ ] Add loading progress indicator for 3D assets on slower connections
+- [ ] Mobile/touch controls for the camera zoom interaction
+- [ ] Additional desktop apps (e.g. a mini terminal, a notes app)
+---
+ 
+## 🏷️ License
+ 
+This project is open source and available under the [MIT License](LICENSE).
+ 
+---
  
 <div align="center">
-**[🖥️ Try It Yourself](https://xp-it-helpdesk-windows-portfolio.netlify.app/)**
+*Built by John Freeman — Always learning. Always building. Always improving.*
  
 </div>
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div align="center">
