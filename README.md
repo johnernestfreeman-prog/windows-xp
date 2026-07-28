@@ -9,6 +9,7 @@ An interactive 3D portfolio site built with Three.js, styled as a Windows XP-era
 ## 📸 Preview
 
 **[🚀 Visit Live Site](https://windows-xp-2001.netlify.app/)**
+  [Github-Site](https://johnernestfreeman-prog.github.io/windows-xp/)
  
 ---
  
